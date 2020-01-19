@@ -1,0 +1,887 @@
+/*Navigation Bar*/
+.topnav {
+    background-color: #0F101E;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: lightblue;
+    color: white;
+  }
+  /*resume*/
+  .resume {
+    background-color: #550504; /* Dark Red */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .resume::shadow {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .trial{
+    position: fixed;
+    background-attachment: fixed;;
+  }
+  /*Jump to top button*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0F101E;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /*Project text-RidMe*/
+ .header{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+  }
+  .caption{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+  }
+  .p2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+  }
+  .p3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    text-align: center;
+  }
+  .responsibility{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .tools{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .text{
+    display: inline-block;
+  }
+  
+  .project{
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+  }
+  .project2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+  }
+  .project3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+  }
+  .project4{
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+  }
+  .projectoverview{
+    text-align: left;
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .problem{
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .targetusers{
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+  }
+  .process{
+   width: 550px;
+   text-align: left;
+   float: right;
+   top: -525px;
+   left: -19px;
+   position: relative;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+  }
+  .scope{
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .takeaway{
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .future{
+    width: 550px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  .what{
+    margin: 15px;
+  }
+  .title{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+  }
+  /*rid me photo*/
+  .ridme{
+    float: right;
+    width: 550px;
+    position: relative;
+    padding: 5px;
+    top: -180px;
+  }
+
+  .container {
+    position: relative;
+    width: 20%;
+    right: -950px;
+  }
+
+  .process{
+    left: -359px;
+    padding: 15px;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 64%;
+    left: 64%;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: #20B2AA	;
+  }
+
+  /*horizontal line splitting case studies*/
+ hr.style-three {
+  height: 30px;
+  border-style: solid;
+  border-color: rgb(39, 45, 131);
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+  }
+  hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #381f7a;
+  border-width: 0 0 1px 0;
+  border-radius: 10px;
+  }
+  /*EDD Case Study Stuff*/
+  .responsibility2{
+    font-family: 'Raleway', sans-serif;
+  }
+  .projectoverview2{
+    width: 450px;
+  }
+  .timeline2{
+    width: 450px;
+  }
+  .tools2{
+    font-family: 'Raleway', sans-serif;
+  }
+  .scope2{
+    font-family:'Raleway', sans-serif;
+  }
+  .ridme2{
+    float: right;
+    width: 550px;
+    position: relative;
+    padding: 5px;
+    top: -180px;
+    right: -8px;
+  }
+
+  .container2 {
+    position: relative;
+    width: 80%;
+    left: 55px;
+  }
+
+  .container2 .btn2 {
+    position: absolute;
+    top: 64%;
+    left: 64%;
+    left: 1099px;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container2 .btn2:hover {
+    background-color: #265DA3;
+  }
+
+  .process2{
+    width: 550px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: -420px;
+    left: -342px;
+  }
+  .projectoverview2{
+    font-family: 'Raleway', sans-serif;
+  }
+  .title2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .takeaway2{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .future2{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .problemstatement2{
+    width: 450px;
+  }
+  .problem2{
+    font-family: 'Raleway', sans-serif;
+  }
+  .targetusers2{
+    width: 450px;
+  }
+  .target2{
+    font-family: 'Raleway', sans-serif;
+  }
+  /*East Oakland Collective Case Study Stuff*/
+  .eoc{
+    width: 450px;
+  }
+  .title3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .projectoverview3{
+    font-family:'Raleway', sans-serif;
+  }
+  .teamsize3{
+    width: 450px;
+  }
+  .timeline3{
+    width: 450px;
+  }
+  .problemstatement3{
+    width: 450px;
+  }
+  .problem3{
+    font-family:'Raleway', sans-serif;
+  }
+  .targetusers3{
+    width: 450px;
+  }
+  .target3{
+    font-family: 'Raleway', sans-serif;
+  }
+  .takeaway3{
+    width: 450px;
+  }
+  .learn{
+    font-family: 'Raleway', sans-serif;
+  }
+  .future3{
+    width: 450px;
+  }
+  .fut3{
+    font-family: 'Raleway', sans-serif;
+  }
+  .process3{
+    width: 550px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: -359px;
+    left: -338px;
+  }
+  .ridme3{
+    float: right;
+    width: 550px;
+    position: relative;
+    padding: 5px;
+    top: -180px;
+    right: -325px;
+  }
+  .container{
+    position: relative;
+    width: 65%;
+  }
+
+  .container .btn3 {
+    position: absolute;
+    top: -44px;
+    right: -50px;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn3:hover {
+    background-color: #20B2AA	;
+  }
+  /*Budget Planner Case Study Stuff*/
+  .budget{
+    width: 450px;
+  }
+  .projectoverview4{
+    font-family: 'Raleway', sans-serif;
+  }
+  .title4{
+    font-family:'Montserrat', sans-serif;
+  }
+  .tools4{
+    font-family: 'Raleway', sans-serif;
+  }
+  .timeline4{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .target4{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .future4{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .problem4{
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+  }
+  .ridme4{
+    position: relative;
+    height: 40%;
+    width: 40%;
+    float: right;
+    top: -150px;
+  }
+  .process4{
+    width: 550px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: -409px;
+    left: -229px;
+  }
+  .container{
+    position: relative;
+    width: 80%;
+    left: 55px;
+  }
+
+  .container .btn4 {
+    position: absolute;
+    top: 64%;
+    left: 64%;
+    left: 799px;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn4:hover {
+    background-color: rgb(202, 202, 178)	;
+  }
+  /*Media Queries for this page-Rid Me Case Study*/
+  @media only screen and (max-width: 1280px){
+    .process{
+      left: -35px;
+    }
+  }
+  /*Iphone XR*/
+  @media only screen and (max-width: 600px){
+    .style-three{
+      display: none;
+    }
+    .ridme{
+     width: 100%;
+     height: 100%;
+    }
+   
+    .container {
+      position: relative;
+      width: 100%;
+      top: -60px;
+      left: -10px;
+    }
+    .text{
+      position: relative;
+      bottom: -260px;
+    }
+    .project{
+      font-size: 39px;
+      text-align: left;
+      top: -250px;
+      position: relative;
+    }
+    .title{
+      text-align: left;
+      margin: 15px;
+    }
+    .projectoverview{
+      margin: 15px;
+      width: 300px;
+    }
+    .timeline{
+      position: relative;
+      top: 10px;
+    }
+    .scope{
+      width: 300px;
+      margin: 15px;
+    }
+   .teamsize{
+    display: inline;
+   }
+   .problemstatement{
+    width:300px;
+   }
+   .problemstatement{
+     width: 300px;
+     margin-top: 40px;
+     margin: 15px;
+   }
+   .problem{
+     width: 414px;
+   }   
+   
+   .targetusers{
+     float: left;
+     width: 359px;
+     position: relative;
+     top: -19px;
+     margin: 15px;
+   }
+   .process{
+     margin-top: 465px;
+     width: 349px;
+     left: -70px;
+   }
+   .steps{
+     position: relative;
+     margin: 25px;
+   }
+   .takeaway{
+     margin: 15px;
+     display: inline;
+     position: relative;
+     top: -500px;
+   }
+   .teach{
+     margin: 15px;
+   }
+   .future{
+     display: inline;
+     position: relative;
+     top: -370px;
+   }
+   .caption{
+     margin: 15px;
+   }
+   .p2{
+     margin: 15px;
+     font-family:'Raleway', sans-serif;
+     font-size: 19px;
+   }
+   .p3{
+     margin: 15px;
+     font-family:'Raleway', sans-serif;
+     font-size: 19px;
+   }
+   .responsibility{
+     top: 20px;
+     position: relative;
+     margin: 15px;
+   }
+   .tools{
+     margin: 15px;
+   }
+  }
+  /*Media Queries for this page-EDD Case Study*/
+  @media only screen and (max-width: 1280px){
+    .process2{
+      position: relative;
+      left: -90px;
+      top: -520px;
+    }
+    .steps2{
+      position: relative;
+      top: -10px;
+    }
+    .container2{
+      position: relative;
+      left: 160px;
+    }
+    .container2 .btn2 {
+      position: relative;
+      top: 64%;
+      left: 64%;
+      left: 705px;
+      transform: translate(-60%, -60%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .container2 .btn2:hover {
+      background-color: #265DA3;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .project2{
+      position: relative;
+      top: -50px;
+    }  
+    .responsibility2{
+      margin: 15px;
+    }
+    .tools2{
+      margin: 15px;
+    }
+    .scope2{
+      margin: 15px;
+    }
+    .ridme2{
+      top: -110px;
+    } 
+    .projectoverview2{
+      top: 375px;
+      position: relative;
+      margin: 15px;
+    }
+    .title2{
+      position: relative;
+      top: 374px;
+      margin: 15px;
+    }
+    .problem2{
+      margin: 15px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .problemstatement2{
+      width: 370px;
+      margin: 15px;
+    }
+    .process2{
+      position: relative;
+      top: 20px;
+      width: 370px;
+    }
+    .target2{
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+      
+    }
+    .future2{
+      width: 370px;
+      position: relative;
+      top: 49px;
+      margin: 15px;
+    }
+    .takeaway2{
+      margin: 15px;
+      position: relative;
+      top: 24px
+    }
+  }
+  /*Media Queries for this page-East Oakland Collective*/
+  @media only screen and (max-width: 600px){
+    .project3{
+      position: relative;
+      right: -32px;
+      top: 90px;
+    }
+    .ridme3{
+      position: relative;
+      top: -40px;
+      left: 159px;
+    }
+    .container3{
+      position: relative;
+      top: -40px;
+    }
+    
+    .title3{
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+      top: 379px;
+      right: -32px;
+    }
+    .project3{
+      position: relative;
+      top: 20px;
+    }
+   .projectoverview3{
+     margin: 25px;
+     position: relative;
+     top: 395px;
+     word-wrap: break-word;
+     font-family: 'Raleway', sans-serif;
+   }
+   .teamsize3{
+     margin: 15px;
+     position: relative;
+     top: 105px;
+   }
+   .problemstatement3{
+     margin: 15px;
+     position: relative;
+     top: 190px;
+   }
+   .problem3{
+     font-family: 'Raleway', sans-serif;
+     margin: 25px;
+   }
+   .targetusers3{
+    margin: 15px;
+    position: relative;
+    top: 190px;
+  }
+  .target3{
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+  }
+   .timeline3{
+     position: relative;
+     margin: 15px;
+     top: 160px;
+   }
+   .title33{
+     right: -50px;
+     margin: 15px;
+     position: relative;
+   }
+   .process3{
+     width: 360px;
+     top: 195px;
+     left: 120px;
+     width: 550px;
+     margin: 25px;
+     position: relative;
+   }
+   .steps3{
+     width: 350px;
+     position: relative;
+     left: 50px;
+     margin: 25px;
+   }
+   
+   .future3{
+     font-family: 'Raleway', sans-serif;
+     position: relative;
+     top: -149px;
+     margin: 15px;
+   }
+   .fut3{
+     font-family: 'Raleway', sans-serif;
+     margin: 15px;
+   }
+   .takeaway3{
+     font-family: 'Raleway', sans-serif;
+     position: relative;
+     margin: 15px;
+     top: 490px;
+   }
+  }
+  @media only screen and (max-width: 1280px){
+    .container {
+      position: relative;
+      width: 40%;
+      left: 198px;
+    }
+  
+    .container .btn3 {
+      position: relative;
+      top: 64px;
+      left: 64px;
+      left: 599px;
+      top: -350px;
+      transform: translate(-60%, -60%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .process3{
+     left: -10px;
+     top: -670px;
+    }
+
+    .teamsize3{
+      position: relative;
+      top: -299px;
+    }
+    .timeline3{
+      position: relative;
+      top: -270px;
+    }
+    .problemstatement3{
+      position: relative;
+      top: -240px;
+    }
+  }
+  
+  /*Budget Planner Media Queries*/
+  @media only screen and (max-width: 600px){
+    .takeaway4{
+      position: relative;
+      top: 850px;
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+    }
+    .process4{
+      position: relative;
+      width: 360px;
+      top: 790px;
+      left: -30px;
+    }
+    .targetusers4{
+      position: relative;
+      top: 790px;
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+    }
+    .problemstatement4{
+      position: relative;
+      top: 690px;
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+    }
+    .timeline4{
+      position: relative;
+      top: 590px;
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+    }
+    .tools4{
+      font-family: 'Raleway', sans-serif;
+      margin: 15px;
+    }
+    .teamsize4{
+      position: relative;
+      top: 540px;
+    }
+    .project4{
+      position: relative;
+      top: 310px;
+    }
+    .ridme4{
+      position: relative;
+      top: 240px;
+      left: -95px;
+    }
+   .projectoverview4{
+     position: relative;
+     top: 490px;
+     font-family: 'Raleway', sans-serif;
+     margin: 15px;
+   }
+   .title4{
+     position: relative;
+     top: 480px;
+     font-family: 'Montserrat', sans-serif;
+     margin: 15px;
+   }
+   .container .btn4 {
+    position: relative;
+    top: 364px;
+    right: -194px;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn4:hover {
+    background-color: #20B2AA	;
+  }
+  }
+ 
